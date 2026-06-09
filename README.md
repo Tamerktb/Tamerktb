@@ -1,16 +1,37 @@
-## Hi there 👋
+# Hi, I'm Tamer Alkhatib 👋
 
-<!--
-**Tamerktb/Tamerktb** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Cybersecurity | Zero Trust | AI Agentic Automation | Data Analytics**
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🔭 Current Focus
+Building secure, automated systems at the intersection of cybersecurity, AI, and data analytics.
+
+### 🛡️ Core Areas
+- **Cyber Security** — SOC operations, threat detection, SIEM (Splunk, Wazuh), EDR
+- **Zero Trust** — Network segmentation, least-privilege architecture, identity-aware security
+- **AI Agentic Automation** — Autonomous security agents, intelligent response workflows
+- **Data Analytics** — Security log analysis, customer churn modeling, risk quantification
+
+### 🧰 Tech Stack
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![Splunk](https://img.shields.io/badge/-Splunk-000000?style=flat&logo=splunk&logoColor=white)
+![Wazuh](https://img.shields.io/badge/-Wazuh-1B6AC6?style=flat&logo=wazuh&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
+
+### 📌 Featured Projects
+| Project | Description |
+|---------|-------------|
+| [EDR Home Lab](https://github.com/Tamerktb/EDR-Home-Lab) | C2 simulation, threat detection with LimaCharlie & Sliver |
+| [Wazuh SOC Lab](https://github.com/Tamerktb/Wazuh-SOC-Home-Lab-Amman) | Full SOC stack with pfSense, Suricata, VirusTotal |
+| [SSH Log Analysis](https://github.com/Tamerktb/SSH-Log-Analysis-using-Splunk) | Splunk-based intrusion pattern detection |
+| [EcoShop Retention](https://github.com/Tamerktb/EcoShop-Customer-Retention-Analysis) | RFM churn model — $47K projected revenue recovery |
+
+### 📫 Connect
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+
+---
+
+*"Security is not a product, but a process." — Bruce Schneier*
