@@ -29,8 +29,8 @@ Building secure, automated systems at the intersection of cybersecurity, AI, and
 | [EcoShop Retention](https://github.com/Tamerktb/EcoShop-Customer-Retention-Analysis) | RFM churn model — $47K projected revenue recovery |
 
 ### 📫 Connect
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tamer-al-khatib/)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:tamerktb2003@gmail.com)
 
 ---
 
