@@ -1,6 +1,6 @@
 # Hi, I'm Tamer Alkhatib 👋
 
-**Cybersecurity | Zero Trust | AI Agentic Automation | Data Analytics**
+**Cybersecurity | Zero Trust | AI Agentic Automation | Cloud Security**
 
 ---
 
