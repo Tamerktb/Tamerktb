@@ -28,7 +28,6 @@ Building secure, automated systems at the intersection of cybersecurity, AI, and
 | [EDR Home Lab](https://github.com/Tamerktb/EDR-Home-Lab) | C2 simulation, threat detection with LimaCharlie & Sliver |
 | [Wazuh SOC Lab](https://github.com/Tamerktb/Wazuh-SOC-Home-Lab-Amman) | Full SOC stack with pfSense, Suricata, VirusTotal |
 | [SSH Log Analysis](https://github.com/Tamerktb/SSH-Log-Analysis-using-Splunk) | Splunk-based intrusion pattern detection |
-| [EcoShop Retention](https://github.com/Tamerktb/EcoShop-Customer-Retention-Analysis) | RFM churn model — $47K projected revenue recovery |
 
 ### 📫 Connect
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tamer-al-khatib/)
