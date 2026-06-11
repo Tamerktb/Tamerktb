@@ -23,6 +23,7 @@ Building secure, automated systems at the intersection of cybersecurity, AI, and
 ### 📌 Featured Projects
 | Project | Description |
 |---------|-------------|
+| [IOC Enrichment Pipeline](https://github.com/Tamerktb/ioc-enrichment-pipeline) | Automated threat intel enrichment — enriches IPs/domains/hashes across multiple APIs, scores risk, caches results, Splunk-ready output |
 | [Cloud Security Monitoring Lab](https://github.com/Tamerktb/cloud-security-monitoring-lab) | AWS + Wazuh SIEM + detection engineering + honeypot + attack simulation |
 | [EDR Home Lab](https://github.com/Tamerktb/EDR-Home-Lab) | C2 simulation, threat detection with LimaCharlie & Sliver |
 | [Wazuh SOC Lab](https://github.com/Tamerktb/Wazuh-SOC-Home-Lab-Amman) | Full SOC stack with pfSense, Suricata, VirusTotal |
