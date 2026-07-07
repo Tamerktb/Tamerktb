@@ -27,6 +27,7 @@ Building secure, automated systems at the intersection of cybersecurity, AI, and
 | [ZT Agentic Gateway](https://github.com/Tamerktb/ZT-Agentic-gateway) | Zero Trust enforcement for agentic AI — NHI management, policy-as-code, prompt injection detection, dynamic credential vault, immutable audit chain, attack simulation |
 | [IOC Enrichment Pipeline](https://github.com/Tamerktb/ioc-enrichment-pipeline) | Automated threat intel enrichment — enriches IPs/domains/hashes across multiple APIs, scores risk, caches results, Splunk-ready output |
 | [Cloud Security Monitoring Lab](https://github.com/Tamerktb/cloud-security-monitoring-lab) | AWS + Wazuh SIEM + detection engineering + honeypot + attack simulation |
+| [SASE Deployment Lab](https://github.com/Tamerktb/sase-deployment-lab) | Simulated SASE deployment — Cloudflare Zero Trust + WireGuard mesh, identity-based access, device posture checks, split-tunneling across 3 sites |
 | [EDR Home Lab](https://github.com/Tamerktb/EDR-Home-Lab) | C2 simulation, threat detection with LimaCharlie & Sliver |
 | [Wazuh SOC Lab](https://github.com/Tamerktb/Wazuh-SOC-Home-Lab-Amman) | Full SOC stack with pfSense, Suricata, VirusTotal |
 | [SSH Log Analysis](https://github.com/Tamerktb/SSH-Log-Analysis-using-Splunk) | Splunk-based intrusion pattern detection |
