@@ -1,40 +1,57 @@
-# Hi, I'm Tamer Alkhatib 👋
+<div align="center">
 
-**Cybersecurity | Zero Trust | Agentic AI Automation | Cloud Security**
+# Tamer Al-Khatib
+
+**Cybersecurity Analyst — Detection Engineering · SOC Operations · Security Automation**
+
+📍 Amman, Jordan &nbsp;·&nbsp; ✉️ [tamerktb2003@gmail.com](mailto:tamerktb2003@gmail.com) &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/tamer-al-khatib/)
+
+</div>
+
+---
+
+I build detection and response systems, not slide decks — and I make them run.
+
+My projects deploy real infrastructure: a **Splunk app** that catches SSH credential-stuffing and impossible-travel logins against *live* threat-intel feeds, a **self-provisioning AWS SOC lab** built with Terraform, and a **Zero Trust gateway** that inspects every API call an AI agent makes.
+
+Hands-on experience at Jordan's **National Cyber Security Center (NCSCJO)** and **Green Circle for Cybersecurity**, spanning SOC operations, penetration testing, GRC compliance, and AI-driven security automation.
 
 ---
 
-### 🔭 Current Focus
-Building secure, automated systems at the intersection of cybersecurity, AI, and data analytics.
+## 🔬 Featured work
 
-### 🛡️ Core Areas
-- **Cyber Security** — SOC operations, threat detection, SIEM (Splunk, Wazuh), EDR
-- **Zero Trust** — Network segmentation, least-privilege architecture, identity-aware security
-- **AI Agentic Automation** — Autonomous security agents, intelligent response workflows
-- **Data Analytics** — Security log analysis, customer churn modeling, risk quantification
-
-### 🧰 Tech Stack
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![Splunk](https://img.shields.io/badge/-Splunk-000000?style=flat&logo=splunk&logoColor=white)
-![Wazuh](https://img.shields.io/badge/-Wazuh-1B6AC6?style=flat&logo=wazuh&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
-
-### 📌 Featured Projects
-| Project | Description |
-|---------|-------------|
-| [ZT Agentic Gateway](https://github.com/Tamerktb/ZT-Agentic-gateway) | Zero Trust enforcement for agentic AI — NHI management, policy-as-code, prompt injection detection, dynamic credential vault, immutable audit chain, attack simulation |
-| [IOC Enrichment Pipeline](https://github.com/Tamerktb/ioc-enrichment-pipeline) | Automated threat intel enrichment — enriches IPs/domains/hashes across multiple APIs, scores risk, caches results, Splunk-ready output |
-| [Cloud Security Monitoring Lab](https://github.com/Tamerktb/cloud-security-monitoring-lab) | AWS + Wazuh SIEM + detection engineering + honeypot + attack simulation |
-| [SASE Deployment Lab](https://github.com/Tamerktb/sase-deployment-lab) | Simulated SASE deployment — Cloudflare Zero Trust + WireGuard mesh, identity-based access, device posture checks, split-tunneling across 3 sites |
-| [EDR Home Lab](https://github.com/Tamerktb/EDR-Home-Lab) | C2 simulation, threat detection with LimaCharlie & Sliver |
-| [Wazuh SOC Lab](https://github.com/Tamerktb/Wazuh-SOC-Home-Lab-Amman) | Full SOC stack with pfSense, Suricata, VirusTotal |
-| [SSH Log Analysis](https://github.com/Tamerktb/SSH-Log-Analysis-using-Splunk) | Splunk-based intrusion pattern detection |
-
-### 📫 Connect
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tamer-al-khatib/)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=tamerktb2003@gmail.com)
+| Project | What it does | Proof |
+|---|---|---|
+| **[ZT-Agent-Proxy](https://github.com/Tamerktb/ZT-Agent-Proxy)** | Transparent HTTP proxy that inspects, rate-limits, and audits every AI-agent API call. 27 detection rules (prompt injection, secrets, PII, injection), tamper-evident hash-chain audit log, HTML dashboard. | `33/33` tests pass · CI on Python 3.11–3.13 |
+| **[SSH Log Analysis — Splunk](https://github.com/Tamerktb/SSH-Log-Analysis-using-Splunk)** | Deployable Splunk app: 9 correlation searches (brute force, credential stuffing, impossible travel, dormant accounts), CIM-mapped, fed by **live** Tor / abuse.ch / Spamhaus intel. Full Elastic 8.15 + ElastAlert 2 port included. | Verified end-to-end against real Hydra brute-force traffic |
+| **[Cloud Security Monitoring Lab](https://github.com/Tamerktb/cloud-security-monitoring-lab)** | Self-provisioning AWS SOC — Terraform builds VPC, EC2, CloudTrail and VPC Flow Logs; Wazuh SIEM, Cowrie honeypot, and custom detection rules on top. | `terraform apply` → running detections |
+| **[SASE Deployment Lab](https://github.com/Tamerktb/sase-deployment-lab)** | Cloudflare Zero Trust + WireGuard multi-site mesh with device posture checks and split-tunneling. Entirely Infrastructure-as-Code. | CI green · Docker sim + optional real EC2 mesh |
+| **[IOC Enrichment Pipeline](https://github.com/Tamerktb/ioc-enrichment-pipeline)** | Multi-API threat-intel enrichment with SQLite caching, weighted risk scoring, retry/backoff, and Splunk-ready output. CLI + Streamlit UI. | Graceful degradation + dead-letter logging |
+| **[EDR Home Lab](https://github.com/Tamerktb/EDR-Home-Lab)** | Sliver C2 vs. LimaCharlie EDR attack-and-defense simulation — LSASS access, ransomware behavior, lateral movement — with detection & response rules for each. | 8 rules · Vagrant-automated VMs |
 
 ---
+
+## 🧰 Toolkit
+
+| Area | Tools |
+|---|---|
+| **Detection & Response** | Splunk (SPL · CIM · correlation searches), Wazuh, LimaCharlie, Sysmon, ElastAlert 2, Elastic 8.x |
+| **Offensive Security** | Kali Linux, Sliver C2, Hydra, Burp Suite, OWASP Top 10 web-app testing |
+| **Cloud & Network** | AWS (CloudTrail · VPC · IAM), Terraform, Cloudflare Zero Trust, WireGuard, pfSense, Suricata IDS/IPS |
+| **Automation & Code** | Python, PowerShell, Bash, Docker, Git / GitHub Actions, REST APIs |
+| **Governance & Risk** | ISO 27001, NIST CSF control mapping, risk documentation |
+
+---
+
+## 📫 Let's talk
+
+I'm open to **SOC analyst, security engineer, and GRC** roles, and to security-automation work.
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tamer-al-khatib/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tamerktb2003@gmail.com)
 
 *"Security is not a product, but a process." — Bruce Schneier*
+
+</div>
